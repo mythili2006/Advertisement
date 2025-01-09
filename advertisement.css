@@ -1,0 +1,116 @@
+body{
+    background-image: url('lays background.jpeg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+header{
+    background-color:black ;
+    text-align: center;
+}
+
+header nav ul{
+    padding: 10px;
+}
+header nav ul li{
+    color: sandybrown;
+    display: inline;
+    padding: 100px;
+}
+
+header nav ul li a{
+    color: coral;
+    text-decoration: none;
+}
+
+div{
+    padding: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:gray;
+    color: white;
+    margin-top: 20px;
+}
+
+#move{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255,0);
+    overflow: auto auto;
+    white-space: nowrap;
+    padding: 1px;
+}
+
+#move #slide{
+    display: inline-block;
+}
+
+main{
+    text-align: center;
+    color:rgb(225, 255, 0);
+}
+
+h2{
+    color: cyan;
+}
+#Home{
+    background-color: black;
+    background-image: radial-gradient(rgb(242, 116, 137),rgb(248, 158, 173),rgb(207, 171, 177),rgb(231, 222, 224))
+
+}
+#Flavors{
+    background-color:black;
+    padding: 100px;
+    animation-name: box;
+    background-image: url('flavorback.avif');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-image:radial-gradient(rgb(248, 177, 45),rgb(247, 187, 75),rgb(243, 199, 119),rgb(240, 210, 154));*/
+}
+
+main #Buy-now form fieldset{
+    padding: 10px;
+
+}
+
+#Buy-now{
+    background-image:url('backport.jpg');
+
+}
+
+
+#scroll-text{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255,0);
+    overflow: auto auto;
+    white-space: nowrap;
+    padding: 1px;
+}
+
+#scroll-text {
+    display: inline-block;
+}
+#Flavors:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.25);
+    
+}
+
+
+
+
+
